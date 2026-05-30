@@ -1,7 +1,7 @@
 :root {
     --bg-color: #0d0d0d;
     --card-bg: #1a1a1a;
-    --primary-color: #ff5e00; /* Laranja Industrial */
+    --primary-color: #0095ff; /* Laranja Industrial - #ff5e00*/
     --text-main: #e0e0e0;
     --text-dim: #a0a0a0;
     --mono-font: 'JetBrains Mono', monospace;
@@ -28,7 +28,7 @@ nav {
     margin: 0 auto;
 }
 
-.logo {
+.logo a {
     font-family: var(--mono-font);
     font-weight: bold;
     color: var(--primary-color);
